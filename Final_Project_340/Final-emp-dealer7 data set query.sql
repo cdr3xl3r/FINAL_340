@@ -1,0 +1,10 @@
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Winna', 'Ducker', 'Senior Manager', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Baird', 'Minear', 'Sales Associate', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Irene', 'McGaw', 'Human Resources Manager', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Harley', 'Akram', 'Sales Representative', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Ida', 'Lancetter', 'Administrative Officer', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Nappie', 'Stoade', 'Sales Associate', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Ricky', 'Longstaff', 'Tax Accountant', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Avis', 'Dyett', 'Sales Associate', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Ajay', 'Damrell', 'Web Designer', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
+insert into employee (EMP_FNAME, EMP_LNAME, EMP_TITLE, DEAL_NUM) values ('Genny', 'Maffezzoli', 'Compensation Analyst', (Select d.DEAL_NUM FROM dealership AS d WHERE d.DEAL_NUM = '7'));
